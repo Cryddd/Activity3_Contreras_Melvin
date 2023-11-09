@@ -187,3 +187,4 @@ LEFT JOIN public.hero h ON c.class_id = h.class_id
 LEFT JOIN public.player p ON h.hero_id = p.hero_id
 GROUP BY c.class_name
 ORDER BY average_level DESC;
+
